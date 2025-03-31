@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/inputs.css">
+</head>
+
+<body>
+    <h1 class="azul">Diversión</h1>
+
+    <br>
+    <br>
+
+    <p><b>P 1: Una vez llegas al centro, ¿Te aparece alguna persona en la cabeza?</b></p>
+    <br>
+    <p>
+        <label for="opciones">Selecciona la opción: </label>
+        <input title="opcion1" name="p1" value="1" id="opcion1" type="radio" checked> Opción 1
+        <input title="opcion2" name="p1" value="2" id="opcion2" type="radio"> Opción 2
+    </p>
+
+    <br>
+    <br>
+
+    <p>
+
+        <strong>Cuando ves a esa persona ¿Que pensamiento te aparece en al cabeza?</strong>
+    </p>
+    <br>
+
+    <p></p> <label for="rango">Responde: </label>
+    <input id="text" type="text" placeholder="Escribe aqui la respuesta">
+
+    </p>
+
+
+    <br>
+    <br>
+
+    <p>
+
+        <strong>¿La actividad se hace con más gente?</strong>
+    </p>
+    <br>
+
+    <p>
+        <label for="opciones">Selecciona la opción: </label>
+        <input title="opcion1" name="p3" value="1" id="opcion1" type="radio" checked> Opción 1
+        <input title="opcion2" name="p3" value="2" id="opcion2" type="radio"> Opción 2
+        <input title="opcion3" name="p3" value="3" id="opcion3" type="radio"> Opción 3
+    </p>
+
+    <br>
+    <br>
+    <p>
+
+        <strong>¿Esa actividad depende de que exista un tercero/a?</strong>
+    </p>
+
+    <br>
+
+
+    <p>
+        <label for="opciones"> Selecciona una opción</label>
+        <input title="opcion1" name="p4" value="1" id="opcion1" type="radio" checked> Opción 1
+        <input title="opcion2" name="p4" value="2" id="opcion2" type="radio"> Opción 2
+    </p>
+
+    <br>
+
+    <p>
+
+        <strong></strong>
+
+    </p>
+
+    <br>
+
+    <p>
+
+        <strong> Cuando se os pregunta sobre esa actividad, ¿Justificais su ejercicio argumentando algo sobre el/la
+            tercero/a?</strong>
+    </p>
+
+    <br>
+
+    <p>
+        <label for="opciones"> Seleciona una opción</label>
+        <input title="opcion1" name="p5" value="1" id="opcion1" type="radio" checked> Opción 1
+        <input title="opcion1" name="p5" value="2" id="opcion2" type="radio"> Opción 2
+    </p>
+
+    <br>
+    <br>
+
+    <p><strong>Durante el ejercicio de esa actividad, ¿Os beneficiais de que la tercera pesona ignore vuestros
+            nombres?</strong></p>
+
+    <br>
+    <label for="opciones"> Seleciona una opción</label>
+    <input title="opcion1" name="p6" value="1" id="opcion1" type="radio" checked> Opción 1
+    <input title="opcion2" name="p6" value="2" id="opcion2" type="radio"> Opción 2
+
+    <br>
+    <br>
+
+    <p><b>¿Estarias dispuesto/a a ocupar el lugar de esa tercera persona?</b></p>
+
+    <br>
+
+    <label for="opciones"> Selecciona una opción:</label>
+
+    <input title="opcion1" name="p7" value="1" id="opcion1" type="radio" checked> Opción 1
+    <input title="opcion2" name="p7" value="2" id="opcion2" type="radio"> Opción 2
+
+    <br>
+    <br>
+
+    <p><strong>¿Que grado de satisfacción tiene tu actividad para ti:?</strong></p>
+    <br>
+    <p><strong> Mueve la barra hacia la derecha para incrementar el nivel:</strong></p>
+    <br>
+
+
+    <p>
+        <label for="uno">Selecciona:</label>
+        <input id="uno" type="range" min="1" max="10" step="1" list="propio" value="1">
+
+
+        <datalist id="propio">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+
+        </datalist>
+
+
+    </p>
+
+    <br>
+    </br>
+
+    <p><strong>¿Que grado de satisfacción tiene en la otra persona?:</strong></p>
+    <br>
+    <p><strong>Mueve la barra hacia la derecha para incrementar el nivel</strong></p>
+    <br>
+
+
+    <p>
+
+        <label for="dos">Selecciona:</label>
+        <input id="dos" type="range" min="1" max="10" step="1" list="extranyo" value="1">
+
+        <datalist id="extranyo">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+
+        </datalist>
+
+    </p>
+
+    <br>
+    <br>
+
+    <p><strong>¿Cunato afecta tu actividad en el futuro de esa tercera persona</strong></p>
+    <br>
+    <p><strong>Mueve la barra hacia la derecha para medirlo</strong></p>
+
+    <label for="tres">Selecciona:</label>
+    <input id="tres" type="range" min="1" max="10" step="1" list="externo" value="1">
+
+    <datalist id="externo">
+        <option value="1">
+        <option value="2">
+        <option value="3">
+        <option value="4">
+        <option value="5">
+        <option value="6">
+        <option value="7">
+        <option value="8">
+        <option value="9">
+        <option value="10">
+    </datalist>
+
+<a href="comoperrosygatos.html"><img src="./img/5.png" alt="foto"></a>
+
+</body>
+
+</html>
